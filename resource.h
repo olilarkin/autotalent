@@ -16,8 +16,8 @@
 #define VIEW_CLASS_STR "autotalent_View"
 
 // Format        0xMAJR.MN.BG - in HEX! so version 10.1.5 would be 0x000A0105
-#define PLUG_VER 0x00010000
-#define VST3_VER_STR "1.0.0"
+#define PLUG_VER 0x00000200
+#define VST3_VER_STR "0.2.0"
 
 #define PLUG_UNIQUE_ID 'AutT'
 #define PLUG_MFR_ID 'oliL' // make sure this is not the same as BUNDLE_MFR

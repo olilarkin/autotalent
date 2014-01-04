@@ -43,6 +43,16 @@
 		4F3B0B44158B50A5001B0CEF /* libAAXLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8B6723158B4EB2002FC25B /* libAAXLibrary.a */; };
 		4F3EE94613B65A350097B791 /* IPlugOSDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3EE94513B65A350097B791 /* IPlugOSDetect.h */; };
 		4F3EE94913B65A350097B791 /* IPlugOSDetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3EE94513B65A350097B791 /* IPlugOSDetect.h */; };
+		4F6D926A18785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
+		4F6D926B18785E9D00C76AB6 /* fftsetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6D926718785E9D00C76AB6 /* fftsetup.h */; };
+		4F6D926C18785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
+		4F6D926D18785E9D00C76AB6 /* mayer_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6D926918785E9D00C76AB6 /* mayer_fft.h */; };
+		4F6D926E18785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
+		4F6D926F18785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
+		4F6D927018785E9D00C76AB6 /* fftsetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6D926718785E9D00C76AB6 /* fftsetup.h */; };
+		4F6D927118785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
+		4F6D927218785E9D00C76AB6 /* mayer_fft.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6D926918785E9D00C76AB6 /* mayer_fft.h */; };
+		4F6D927318785E9D00C76AB6 /* mayer_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D926818785E9D00C76AB6 /* mayer_fft.c */; };
 		4F78D70B13B637340032E0F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78D62313B637200032E0F3 /* CoreFoundation.framework */; };
 		4F78D7D013B637790032E0F3 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78D7CF13B637790032E0F3 /* CoreMIDI.framework */; };
 		4F78D86E13B637A20032E0F3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F7E65807B2D6F200F64583 /* CoreData.framework */; };
@@ -517,6 +527,9 @@
 		4F4CC4261549BED600A9EA21 /* IPlugAAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPlugAAX.h; path = ../../WDL/IPlug/IPlugAAX.h; sourceTree = SOURCE_ROOT; };
 		4F4CC4401549C15500A9EA21 /* IPlugAAX_Describe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IPlugAAX_Describe.cpp; path = ../../WDL/IPlug/AAX/IPlugAAX_Describe.cpp; sourceTree = SOURCE_ROOT; };
 		4F4F73791576739300C124E3 /* AAX_CIPlugTaperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAX_CIPlugTaperDelegate.h; path = ../../WDL/IPlug/AAX/AAX_CIPlugTaperDelegate.h; sourceTree = SOURCE_ROOT; };
+		4F6D926718785E9D00C76AB6 /* fftsetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fftsetup.h; sourceTree = "<group>"; };
+		4F6D926818785E9D00C76AB6 /* mayer_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mayer_fft.c; sourceTree = "<group>"; };
+		4F6D926918785E9D00C76AB6 /* mayer_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mayer_fft.h; sourceTree = "<group>"; };
 		4F78D62313B637200032E0F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4F78D7CF13B637790032E0F3 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
 		4F78D89613B639100032E0F3 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -724,6 +737,7 @@
 		089C166AFE841209C02AAC07 /* IPlugExample */ = {
 			isa = PBXGroup;
 			children = (
+				4F6D926518785E8E00C76AB6 /* fft */,
 				52FBBED30D0CF143001C8B8A /* resource.h */,
 				52FBBED20D0CF13D001C8B8A /* autotalent.h */,
 				52FBBED00D0CF139001C8B8A /* autotalent.cpp */,
@@ -1010,6 +1024,16 @@
 				4F4CC4401549C15500A9EA21 /* IPlugAAX_Describe.cpp */,
 			);
 			name = AAX;
+			sourceTree = "<group>";
+		};
+		4F6D926518785E8E00C76AB6 /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				4F6D926718785E9D00C76AB6 /* fftsetup.h */,
+				4F6D926818785E9D00C76AB6 /* mayer_fft.c */,
+				4F6D926918785E9D00C76AB6 /* mayer_fft.h */,
+			);
+			name = fft;
 			sourceTree = "<group>";
 		};
 		4F75900813B7A91A00DA399F /* MACGUI */ = {
@@ -1360,6 +1384,8 @@
 				4F3EE94913B65A350097B791 /* IPlugOSDetect.h in Headers */,
 				4FDA440913F3E4F2000B4551 /* IBitmapMonoText.h in Headers */,
 				4FA88B931444E4C4006CB8DA /* dfx-au-utilities.h in Headers */,
+				4F6D926B18785E9D00C76AB6 /* fftsetup.h in Headers */,
+				4F6D926D18785E9D00C76AB6 /* mayer_fft.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1406,6 +1432,8 @@
 				4F78DAA613B640050032E0F3 /* IGraphics.h in Headers */,
 				4F3EE94613B65A350097B791 /* IPlugOSDetect.h in Headers */,
 				4FDA440F13F3E4F2000B4551 /* IBitmapMonoText.h in Headers */,
+				4F6D927018785E9D00C76AB6 /* fftsetup.h in Headers */,
+				4F6D927218785E9D00C76AB6 /* mayer_fft.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1740,6 +1768,7 @@
 				4F78D9C913B63BA50032E0F3 /* IControl.cpp in Sources */,
 				4F78D9F313B63C6A0032E0F3 /* IPlugVST.cpp in Sources */,
 				4FDA440C13F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
+				4F6D926F18785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1764,6 +1793,7 @@
 				4F78DA0A13B63CD90032E0F3 /* IPlugAU_ViewFactory.mm in Sources */,
 				4FDA440813F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
 				4F296BDA1678E6C800C0F5C2 /* dfx-au-utilities.c in Sources */,
+				4F6D926C18785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1794,6 +1824,7 @@
 				4F7F5CB313E9607A002918FD /* IPlugProcessRTAS.cpp in Sources */,
 				4FDA440713F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
 				4F79A34E146304CD00744AED /* IPlugProcessAS.cpp in Sources */,
+				4F6D926A18785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1833,6 +1864,7 @@
 				4F9828D4140A9EB700F3FCC1 /* conststringtable.cpp in Sources */,
 				4F9828D5140A9EB700F3FCC1 /* funknown.cpp in Sources */,
 				4F9828D6140A9EB700F3FCC1 /* ustring.cpp in Sources */,
+				4F6D926E18785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1858,6 +1890,7 @@
 				4FB600271567CB0A0020189A /* IPlugAAX.cpp in Sources */,
 				4FB600281567CB0A0020189A /* IPlugAAX_Describe.cpp in Sources */,
 				4FB600291567CB0A0020189A /* AAX_CIPlugParameters.cpp in Sources */,
+				4F6D927318785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1895,6 +1928,7 @@
 				4FD16CA313B6327D001D0217 /* app_dialog.cpp in Sources */,
 				4FB3624F13B648FE00DB6B76 /* main.mm in Sources */,
 				4FDA440E13F3E4F2000B4551 /* IBitmapMonoText.cpp in Sources */,
+				4F6D927118785E9D00C76AB6 /* mayer_fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
